@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<World>
+  <Object name="MAP" exception="true">
+      <Object name="PierDancehall"/>
+      <Object name="LakeSmallBottom1"/>
+      <Object name="PierStore"/>
+      <Object name="Buildings">
+          <Object name="Barn"/>
+          <Object name="BarnOld"/>
+          <Object name="BarnOld_junk"/>
+          <Object name="HouseRintama5"/>
+          <Object name="DINGONBIISI"/>
+          <Object name="ChickenHouse"/>
+          <Object name="Barn"/>
+      </Object>
+      <Object name="TrafficSigns"/>
+      <Object name="StreetLights"/>
+      <Object name="BusStop 1"/>
+      <Object name="HayBales"/>
+      <Object name="PierHome"/>
+      <Object name="MESH" exception="true">
+          <Object name="BRIDGE_highway"/>
+          <Object name="BRIDGE_dirt"/>
+          <Object name="ROCKS"/>
+          <Object name="RAILROAD_TUNNEL"/>
+          <Object name="CHURCHWALL"/>
+          <Object name="RAILROAD"/>
+          <Object name="WHEAT"/>
+          <Object name="ELEC_POLES"/>
+          <Object name="TRACKFIELD"/>
+          <Object name="FOLIAGE" exception="true"/>
+          <Object name="road_lines"/>
+          <Object name="SWAMP"/>
+          <Object name="AIRPORT"/>
+          <Object name="TERRAIN_OBJ" exception="true"/>
+      </Object>
+      <Object name="BirdTower"/>
+      <Object name="SkijumpHill"/>
+      <Object name="RadioMast"/>
+      <Object name="PierRiver"/>
+      <Object name="BusStop"/>
+      <Object name="Factory"/>
+  </Object>
+  <Object name="RYKIPOHJA" exception="true">
+      <Object name="BarnOld"/>
+      <Object name="ChickenHouse 3"/>
+      <Object name="HouseRintama2"/>
+      <Object name="HouseOld5"/>
+  </Object>
+  <Object name="BOAT"/>
+  <Object name="PERAJARVI">
+      <Object name="HouseRintamaCrazy"/>
+      <Object name="wheat_silos"/>
+      <Object name="Fence"/>
+      <Object name="HouseOld3"/>
+      <Object name="Fence 1"/>
+      <Object name="Greenhouse"/>
+      <Object name="HouseOld1"/>
+      <Object name="CHURCH"/>
+      <Object name="Victro 1"/>
+      <Object name="BusStop 2"/>
+      <Object name="HouseRintama4"/>
+      <Object name="Fence 1"/>
+      <Object name="HouseSmall3"/>
+      <Object name="Greenhouse"/>
+      <Object name="TerraceHouse"/>
+      <Object name="MailBox"/>
+      <Object name="ChickenHouse"/>
+      <Object name="HouseRintama3"/>
+      <Object name="School"/>
+      <Object name="Greenhouse"/>
+      <Object name="HouseRintama2"/>
+      <Object name="HouseWhite"/>
+      <Object name="MailBox"/>
+      <Object name="MailBox"/>
+      <Object name="HouseOld5"/>
+  </Object>
+  <Object name="YARD"/>
+  <Object name="STORE"/>
+  <Object name="REPAIRSHOP"/>
+  <Object name="SATSUMA(557kg, 248)"/>
+  <Object name="KEKMET(350-400psi)"/>
+  <Object name="RCO_RUSCKO12(270)"/>
+  <Object name="FERNDALE(1630kg)"/>
+  <Object name="JONNEZ ES(Clone)"/>
+  <Object name="GIFU(750/450psi)"/>
+  <Object name="CABIN"/>
+  <Object name="COTTAGE"/>
+  <Object name="DANCEHALL"/>
+  <Object name="INSPECTION"/>
+  <Object name="PERAJARVI"/>
+  <Object name="RYKIPOHJA"/>
+  <Object name="SOCCER"/>
+  <Object name="WATERFACILITY"/>
+  <Object name="DRAGRACE"/>
+  <Object name="StrawberryField"/>
+  <Object name="NPC_CARS"/>
+  <Object name="TRAFFIC"/>
+  <Object name="TRAIN"/>
+  <Object name="Buildings"/>
+  <Object name="TrafficSigns"/>
+  <Object name="StreetLights"/>
+  <Object name="HUMANS"/>
+  <Object name="HayBales"/>
+  <Object name="TRACKFIELD"/>
+  <Object name="SkijumpHill"/>
+  <Object name="Factory"/>
+  <Object name="SWAMP"/>
+  <Object name="WHEAT"/>
+  <Object name="ROCKS"/>
+  <Object name="RAILROAD"/>
+  <Object name="AIRPORT"/>
+  <Object name="RAILROAD_TUNNEL"/>
+  <Object name="PierDancehall"/>
+  <Object name="PierRiver"/>
+  <Object name="PierStore"/>
+  <Object name="tv(Clo01)"/>
+  <Object name="chair(Clo02)"/>
+  <Object name="chair(Clo05)"/>
+  <Object name="bench(Clo01)"/>
+  <Object name="bench(Clo02)"/>
+  <Object name="table(Clo02)"/>
+  <Object name="table(Clo03)"/>
+  <Object name="table(Clo04)"/>
+  <Object name="table(Clo05)"/>
+  <Object name="desk(Clo01)"/>
+  <Object name="arm chair(Clo01)"/>
+</World>
