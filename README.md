@@ -16,7 +16,7 @@ Warning! Occlusion Culling core is highly experimental and may cause worse perfo
 
 ## Installation
 
-Grab the mod from from [releases page](https://github.com/Athlon007/MOP-Occlusion-Core/releases), paste it in MSC Mod Loader Mods folder (ex. C:\Users\Athlon\Documents\MySummerCar\Mods) and start the game - that's it!
+Grab the mod from from [releases page](https://github.com/Athlon007/MopOcclusionCore/releases), paste it in MSC Mod Loader Mods folder (ex. C:\Users\Athlon\Documents\MySummerCar\Mods) and start the game - that's it!
 
 ## License
 
