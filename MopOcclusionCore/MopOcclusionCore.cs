@@ -1,4 +1,20 @@
-﻿using MSCLoader;
+﻿// Modern Optimization Plugin - Occlusion Core
+// Copyright(C) 2019-2020 Athlon
+
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
+// GNU General Public License for more details.
+
+// You should have received a copy of the GNU General Public License
+// along with this program.If not, see<http://www.gnu.org/licenses/>.
+
+using MSCLoader;
 using UnityEngine;
 
 namespace MopOcclusionCore
@@ -13,18 +29,7 @@ namespace MopOcclusionCore
         // Set this to true if you will be load custom assets from Assets folder.
         // This will create subfolder in Assets folder for your mod.
         public override bool UseAssetsFolder => false;
-
         public override bool SecondPass => true;
-
-        public override void OnNewGame()
-        {
-            // Called once, when starting a New Game, you can reset your saves here
-        }
-
-        public override void OnLoad()
-        {
-            // Called once, when mod is loading after game is fully loaded
-        }
 
         public override void SecondPassOnLoad()
         {
@@ -43,7 +48,7 @@ namespace MopOcclusionCore
         public static Settings occlusionChequered = new Settings("occlusionChequered", "Fast (Default)", true, MopOcclusionCoreSettings.UpdateAll);
         public static Settings occlusionDouble = new Settings("occlusionDouble", "Fancy", false, MopOcclusionCoreSettings.UpdateAll);
 
-        readonly Color32 headerColor = new Color32(29, 29, 29, 255);
+        readonly Color32 headerColor = new Color32(46, 149, 180, 255);
 
         public override void ModSettings()
         {
@@ -59,7 +64,7 @@ namespace MopOcclusionCore
             Settings.AddText(this, "How far the rays will be sent which check visible objects. " +
                 "Objects that are further than that value will not be checked.\nWARNING: large values" +
                 " may cause lag.");
-            Settings.AddHeader(this, "Occlusion Sampling Level of Detail", headerColor);
+            Settings.AddHeader(this, "Sampling Level of Detail", headerColor);
             Settings.AddCheckBox(this, occlusionSamplesLower, "occlusionSampleDetail");
             Settings.AddCheckBox(this, occlusionSamplesLow, "occlusionSampleDetail");
             Settings.AddCheckBox(this, occlusionSamplesDetailed, "occlusionSampleDetail");
