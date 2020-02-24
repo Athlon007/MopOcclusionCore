@@ -39,7 +39,7 @@ os.chdir(BASE_DIR)
 shutil.rmtree(BASE_DIR + "\\build", True)
 
 os.mkdir("build")
-shutil.copyfile("MOP\\bin\\Release\\MopOcclusionCore.dll",
+shutil.copyfile("MopOcclusionCore\\bin\\Release\\MopOcclusionCore.dll",
                 "build\\MopOcclusionCore.dll")
 shutil.copyfile("PleaseReadMe.txt", "build\\PleaseReadMe.txt")
 os.chdir("build")

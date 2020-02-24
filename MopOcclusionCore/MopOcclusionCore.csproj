@@ -60,12 +60,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MopOcclusionCore.cs" />
-    <Compile Include="MopOcclusionCoreSettings.cs" />
-    <Compile Include="Occlusion.cs" />
-    <Compile Include="OcclusionBase.cs" />
-    <Compile Include="OcclusionCamera.cs" />
-    <Compile Include="OcclusionObject.cs" />
+    <Compile Include="src\MopOcclusionCore.cs" />
+    <Compile Include="src\Config\MopOcclusionCoreSettings.cs" />
+    <Compile Include="src\OcclusionCulling\Occlusion.cs" />
+    <Compile Include="src\OcclusionCulling\OcclusionBase.cs" />
+    <Compile Include="src\OcclusionCulling\OcclusionCamera.cs" />
+    <Compile Include="src\OcclusionCulling\OcclusionObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
