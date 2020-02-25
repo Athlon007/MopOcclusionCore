@@ -16,6 +16,7 @@
 
 using UnityEngine;
 using System.Xml;
+using MSCLoader;
 
 namespace MopOcclusionCore
 {
@@ -55,11 +56,11 @@ namespace MopOcclusionCore
 
                     if (gm == null)
                     {
-                        MSCLoader.ModConsole.Error("[MOP: Occlusion Core] Object not found: " + pathToSelf);
+                        ModConsole.Error("[MOP: Occlusion Core] Object not found: " + pathToSelf);
                         continue;
                     }
 
-                    if (gm.GetComponent<OcclusionObject>() == null)
+                    if (gm.GetComponent<OcclusionObject>() == null && !(ModLoader.IsModPresent("SuperchargerForSatsuma") && gm.name.StartsWith("SATSUMA")))
                     {
                         gm.AddComponent<OcclusionObject>();
                     }
