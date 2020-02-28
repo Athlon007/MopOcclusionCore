@@ -5,6 +5,7 @@
 ### Bug Fixes
 
 - Fixes related to Supercharger mod
+- Fixed pivot cube models appearing when they shouldn't
 - Fixed Jokke's furnitures appearing in the list
 
 ## Beta 0.1 (24.02.2020)
