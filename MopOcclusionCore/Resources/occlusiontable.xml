@@ -114,15 +114,4 @@
   <Object name="PierDancehall"/>
   <Object name="PierRiver"/>
   <Object name="PierStore"/>
-  <Object name="tv(Clo01)"/>
-  <Object name="chair(Clo02)"/>
-  <Object name="chair(Clo05)"/>
-  <Object name="bench(Clo01)"/>
-  <Object name="bench(Clo02)"/>
-  <Object name="table(Clo02)"/>
-  <Object name="table(Clo03)"/>
-  <Object name="table(Clo04)"/>
-  <Object name="table(Clo05)"/>
-  <Object name="desk(Clo01)"/>
-  <Object name="arm chair(Clo01)"/>
 </World>

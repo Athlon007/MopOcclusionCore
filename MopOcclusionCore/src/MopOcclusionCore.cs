@@ -24,7 +24,7 @@ namespace MopOcclusionCore
         public override string ID => "MopOcclusionCore"; //Your mod ID (unique)
         public override string Name => "MOP: Occlusion Core (Beta)"; //You mod name
         public override string Author => "Athlon"; //Your Username
-        public override string Version => "0.1"; //Version
+        public override string Version => "0.2"; //Version
 
         // Set this to true if you will be load custom assets from Assets folder.
         // This will create subfolder in Assets folder for your mod.
