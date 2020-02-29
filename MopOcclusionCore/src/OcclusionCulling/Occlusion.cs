@@ -60,8 +60,14 @@ namespace MopOcclusionCore
                         continue;
                     }
 
-                    if (gm.GetComponent<OcclusionObject>() == null && !(ModLoader.IsModPresent("SuperchargerForSatsuma") && gm.name.StartsWith("SATSUMA")))
+                    if (gm.GetComponent<OcclusionObject>() == null)
                     {
+                        if (ModLoader.IsModPresent("SuperchargerForSatsuma") && gm.name.StartsWith("SATSUMA"))
+                            continue;
+
+                        if (ModLoader.IsModPresent("SatsumaTurboCharger") && gm.name.StartsWith("SATSUMA"))
+                            continue;
+
                         gm.AddComponent<OcclusionObject>();
                     }
                 }
