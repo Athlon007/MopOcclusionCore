@@ -10,7 +10,8 @@ https://github.com/Athlon007/MopOcclusionCore/
 
 
 # CREDITS #
-- u/mrjackspede (from r/Unity3D) - free dynamic object occlusion script
+- u/mrjackspede (from r/Unity3D) - free d
+- Icon made by Freepik from www.flaticon.com
 
 
 # CONTACT #

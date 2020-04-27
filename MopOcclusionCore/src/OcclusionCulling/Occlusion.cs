@@ -33,7 +33,7 @@ namespace MopOcclusionCore
 
             Camera.main.gameObject.AddComponent<OcclusionCamera>();
 
-            MSCLoader.ModConsole.Print("[MOP: Occlusion Core] Occlusion listing done.");
+            ModConsole.Print("[MOP: Occlusion Core] Occlusion listing done.");
         }
 
         /// <summary>
@@ -62,10 +62,8 @@ namespace MopOcclusionCore
 
                     if (gm.GetComponent<OcclusionObject>() == null)
                     {
-                        if (ModLoader.IsModPresent("SuperchargerForSatsuma") && gm.name.StartsWith("SATSUMA"))
-                            continue;
-
-                        if (ModLoader.IsModPresent("SatsumaTurboCharger") && gm.name.StartsWith("SATSUMA"))
+                        if (CustomExtensions.IsSatsumaRelatedModPresent() 
+                            && (gm.name.StartsWith("SATSUMA") || gm.transform.root.gameObject.name.StartsWith("SATSUMA")))
                             continue;
 
                         gm.AddComponent<OcclusionObject>();

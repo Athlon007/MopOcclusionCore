@@ -1,10 +1,12 @@
 # Changelog
 
-## Beta 0.3 (tba)
+## Beta 0.3 (27.04.2020)
+
+Literally nobody expected that.
 
 ### Added
 
-- Added support for SatsumaTurboCharger mod
+- Added support for SatsumaTurboCharger, SuperchargerForSatsuma and ECU mods
 
 ## Beta 0.2 (28.02.2020)
 

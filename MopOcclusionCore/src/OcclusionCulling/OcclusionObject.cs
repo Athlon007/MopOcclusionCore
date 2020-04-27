@@ -67,7 +67,8 @@ namespace MopOcclusionCore
 
         public void Hide()
         {
-            if (((DateTime.Now - LastSeen).TotalSeconds > MopOcclusionCoreSettings.OcclusionHideDelay) && (PlayerDistance > MopOcclusionCoreSettings.MinOcclusionDistance))
+            if (((DateTime.Now - LastSeen).TotalSeconds > MopOcclusionCoreSettings.OcclusionHideDelay) 
+                && (PlayerDistance > MopOcclusionCoreSettings.MinOcclusionDistance))
             {
                 IsVisible = false;
             }

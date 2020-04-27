@@ -16,7 +16,6 @@
       <Object name="TrafficSigns"/>
       <Object name="StreetLights"/>
       <Object name="BusStop 1"/>
-      <Object name="HayBales"/>
       <Object name="PierHome"/>
       <Object name="MESH" exception="true">
           <Object name="BRIDGE_highway"/>

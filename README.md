@@ -6,13 +6,13 @@
 
 MOP: Occlusion Core is the extension of [MOP](https://github.com/Athlon007/MOP). This extension restores the [occlusion culling](https://en.wikipedia.org/wiki/Hidden-surface_determination#Occlusion_culling).
 
-Warning! Occlusion Culling core is highly experimental and may cause worse performance than without it, depending on PC configuration. It is recommended to try it with very low-end GPUs.
+Warning! Occlusion Culling core is highly experimental and may cause worse performance than without it, depending on PC configuration. It is only recommended to try it with very low-end GPUs.
 
 ## Requirements
 
-- My Summer Car (newest release)
-- [MSC Mod Loader 1.1.5](https://www.racedepartment.com/downloads/msc-mod-loader.15339/)
-- [Modern Optimization Plugin 2.2.1 (or better)](https://github.com/Athlon007/MopOcclusionCore/releases)
+- My Summer Car (newest Official or Experimental release)
+- [MSC Mod Loader 1.1.7](https://www.racedepartment.com/downloads/msc-mod-loader.15339/)
+- [Modern Optimization Plugin 2.2.1 (or better)](https://github.com/Athlon007/MOP/releases)
 
 ## Installation
 
@@ -32,7 +32,3 @@ This program is distributed under GNU General Public License v3. Feel free to us
 Like my work? Consider buying me a beer :)
 
 [![](http://athlon.kkmr.pl/images/svg/paypal.svg)](https://www.paypal.me/figurakonrad)
-
-## Contact
-
-Discord: Athlon#5974

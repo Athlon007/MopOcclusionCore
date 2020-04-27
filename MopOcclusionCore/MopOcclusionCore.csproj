@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\Misc\CustomExtensions.cs" />
     <Compile Include="src\MopOcclusionCore.cs" />
     <Compile Include="src\Config\MopOcclusionCoreSettings.cs" />
     <Compile Include="src\OcclusionCulling\Occlusion.cs" />
